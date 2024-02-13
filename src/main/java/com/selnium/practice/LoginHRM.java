@@ -56,7 +56,7 @@ public class LoginHRM {
             System.out.println("The label text is not matched");
         }
 
-        driver.quit();
+        /*driver.quit();*/
 
 
     }
