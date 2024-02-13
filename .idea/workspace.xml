@@ -4,165 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="711d900c-8ee0-495c-8114-59f580ad466b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collections/practice/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collections/practice/ArrayList2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collections/practice/HashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collections/practice/HashSet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collections/practice/WrapperClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collections/practice/WrapperClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collections/practice/WrapperClass3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/collections/practice/WrapperClass4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/AccessModifiers2/java/AccessModifier4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/AnimalMainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/EmployeeMainclass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/Inheritance/java/HirearchicalInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/Inheritance/java/MultiLevelInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/Inheritance/java/SingleInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/Inheritance/java/SingleInheritance1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/MethodAndConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/StaticNonstatic/java/StaticUsed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/StudentMainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/acessModifiers/java/AccessModifier1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/acessModifiers/java/AccessModifier2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/acessModifiers/java/AccessModifiers3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/constructors/java/Constructor1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/constructors/java/Constructor2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/constructors/java/Constructor3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/constructors/java/Constructor5Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/constructors/java/ConstructorTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/constructors/java/DefaultConstrutorEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/constructors/java/ParameterizedConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/constructors/java/ThisKeyWord1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/constructors/java/ThisKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/encapsulation/java/Encapsulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/encapsulation/java/Encapsulation1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/encapsulation/java/Encapsulation3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/exceptionHandling/java/ExceptionHandling1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/exceptionHandling/java/ExceptionHandling2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/keywordsAndstatement/java/SuperKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/keywordsAndstatement/java/SuperKeyword1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/keywordsAndstatement/java/SuperKeyword2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/keywordsAndstatement/java/SuperStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/keywordsAndstatement/java/ThisKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/keywordsAndstatement/java/ThisStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/methodOverriding/MethodOverriding1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/overloading/java/ConstructorOverloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/overloading/java/MethodOverLoading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/overloading/java/MethodOverLoading1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/overloading/java/MethodOverloading2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/oops/overloading/java/OverLoading1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaProgramsPractice/com/ReversOfStringUsingReverseFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaProgramsPractice/com/ReversOfStringUsingtoCharArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaProgramsPractice/com/ReverseOfStringUsingConcate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/programs/AssignmentOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/programs/CountNumberOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/programs/CountNumberOfDigits2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/programs/MultiplesOf2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/programs/MultiplesOf3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/programs/SumOf1to10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Arrays/DeclerationOfSampleArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Arrays/ObjectArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Arrays/OneDimensionalArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Arrays/OneDimensionalArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Arrays/OneDimensionalArrayUsingForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Arrays/PracticeArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Arrays/PrintLastRowDataFromTwoDimensionalArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Arrays/TwoDimensionalArray1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Arrays/TwoDimensionalArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Arrays/TwoDimensionalArrayUsingForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/HandlingCheckboxes/CheckBoxes2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/HandlingCheckboxes/Checkboxes1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/HandlingDropdowns/AutoSuggetionDropdownHandling2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/HandlingDropdowns/AutosuggestedDropdowns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/HandlingDropdowns/BootstrapDropdowns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/HandlingDropdowns/SelectClassDropdowns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Strings/ImportantMethodSingleString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Strings/ReplaceMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Strings/SampleString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Strings/StringMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Strings/StringMethods2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Strings/SubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/Strings/concatMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/handlingAlertes/AuthenticatorAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/handlingAlertes/HandlingAlerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/DoWhilePractice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/DoWhilePractice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/ForLoopPractice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/PracticeWhileLoop3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/PrintTheGivenNumberIsEven_Odd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/Printing10to1NumbersUsingWhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/Printing10to1UsingDoWhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/Printing10to1UsingForLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/Printing1to10UsingDoWhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/Printing1to10UsingForLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/Printing1to10UsingWhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/Printing2to10EvenNumbersUsingForLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/Printing2to10EvenNumbersUsingWhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/PrintingEvenNumbersUsingWhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/PrintingEvenOddNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/Variables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/VariablesDeclarationBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/WhileLoopPractice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/java/loops/WhileLoopPractice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/Methods1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/NoParameterNoReturnType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/NoParameterNoReturnTypeMainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/NoParameterWithReturnType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/NoParameterWithReturnTypeMainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/NonStaticMemOfSameClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/ParameterWithNoReturnType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/ParameterWithNoReturnTypeMainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/ParameterWithReturnType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/ParameterWithReturnTypeMainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/SampleMethod1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/SampleMethod2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/StaticMemOfDifferentClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/StaticMemOfSameClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/methods/java/StaticMemOfSameClassReInitialiazation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/pracrticeSelenium/BrowserCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/pracrticeSelenium/ConditionalMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/pracrticeSelenium/OrangeHRMLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/pracrticeSelenium/PractiveXpathOrangeHRM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/pracrticeSelenium/PreparingGetMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/pracrticeSelenium/nopCommerce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/programs/AssignmentOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/programs/CountNumberOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/programs/CountNumberOfDigits2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/programs/MultiplesOf2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/programs/MultiplesOf3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/programs/SumOf1to10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/static_nonStatic/Variable1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/static_nonStatic/Variable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/tableHandlings/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/tableHandlings/DynamicTable1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/tableHandlings/DynamicTableHandling2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/tableHandlings/DynamicTableHandling3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/tableHandlings/StaticTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/tableHandlings/StaticTable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/tableHandlings/StaticTableHandling4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/tableHandlings/StaticTableHandling5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/tableHandlings/StaticTablesHandling3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/tableHandlings/staticTableHandling6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/waits/ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/waits/ExplicitWait2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/waits/ExplicitWait3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/waits/ImplicitlyWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selnium/practice/LoginHRM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selnium/practice/OrangeHRMTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selnium/practice/OrangeHRMXpathClass.java" afterDir="false" />
-    </list>
+    <list default="true" id="711d900c-8ee0-495c-8114-59f580ad466b" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,6 +97,14 @@
       <option name="presentableId" value="Default" />
       <updated>1696658297716</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1707805996446</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707805996446</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +117,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
