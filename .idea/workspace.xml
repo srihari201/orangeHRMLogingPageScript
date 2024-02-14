@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="711d900c-8ee0-495c-8114-59f580ad466b" name="Changes" comment="Select Last two checkboxes">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selnium/practice/SelectLastTwoCheckBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selnium/practice/SelectLastTwoCheckBoxes.java" afterDir="false" />
+    <list default="true" id="711d900c-8ee0-495c-8114-59f580ad466b" name="Changes" comment="Adding close broser method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selnium/practice/HandlingFirstTwoCheckBoxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707895018389</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding close broser method">
+      <created>1707895252093</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707895252093</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,7 +157,8 @@
     <MESSAGE value="initial commit Orange HRM" />
     <MESSAGE value="removed quit method" />
     <MESSAGE value="Select Last two checkboxes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Select Last two checkboxes" />
+    <MESSAGE value="Adding close broser method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding close broser method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
