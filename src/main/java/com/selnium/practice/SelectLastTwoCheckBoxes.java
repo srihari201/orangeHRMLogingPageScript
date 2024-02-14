@@ -16,7 +16,7 @@ public class SelectLastTwoCheckBoxes extends BaseClass{
             checkboxes.get(i).click();
 
         }
-        // closeBrowser();
+        closeBrowser();
 
 
 
