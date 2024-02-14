@@ -8,7 +8,7 @@ import java.time.Duration;
 
 public class LoginHRM {
     public static void main(String[] args) throws InterruptedException {
-        OrangeHRMTestData ref=new OrangeHRMTestData();
+        TestData ref=new TestData();
 
 
         WebDriver driver = new ChromeDriver();
