@@ -12,24 +12,24 @@ public class LoginHRM {
 
 
         WebDriver driver = new ChromeDriver();
-        driver.get(OrangeHRMXpathClass.orangeHRM_URL);
+        driver.get(XpathClass.orangeHRM_URL);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); // new way of defining the implicitly wait
 
         System.out.println("....url validation once the user logged into the application....");
         String actual_currentUrl=  driver.getCurrentUrl();
         System.out.println("Actual URL is " + actual_currentUrl);
-        if(OrangeHRMXpathClass.orangeHRM_URL.equals(actual_currentUrl)){
+        if(XpathClass.orangeHRM_URL.equals(actual_currentUrl)){
             System.out.println("The url is matched");
         }
         else{
             System.out.println("The url is not matched");
         }
 
-        driver.findElement(By.xpath(OrangeHRMXpathClass.userNameXPath)).clear();
-        driver.findElement(By.xpath(OrangeHRMXpathClass.userNameXPath)).sendKeys(ref.UserName);
-        driver.findElement(By.xpath(OrangeHRMXpathClass.passwordXpath)).sendKeys(ref.password);
-        driver.findElement(By.xpath(OrangeHRMXpathClass.loginButtonXpath)).click();
+        driver.findElement(By.xpath(XpathClass.userNameXPath)).clear();
+        driver.findElement(By.xpath(XpathClass.userNameXPath)).sendKeys(ref.UserName);
+        driver.findElement(By.xpath(XpathClass.passwordXpath)).sendKeys(ref.password);
+        driver.findElement(By.xpath(XpathClass.loginButtonXpath)).click();
         System.out.println();
 
         Thread.sleep(50000);
@@ -46,7 +46,7 @@ public class LoginHRM {
         System.out.println();
 
         System.out.println("......Label validation after logging in to the application...... ");
-        String actual_labelText=  driver.findElement(By.xpath(OrangeHRMXpathClass.dashBoardLabelXpath)).getText();
+        String actual_labelText=  driver.findElement(By.xpath(XpathClass.dashBoardLabelXpath)).getText();
         System.out.println("Actual label text is " + actual_labelText);
         String expected_labelText="Dashboard";
         if(actual_labelText.equals(expected_labelText)){
