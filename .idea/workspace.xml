@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="711d900c-8ee0-495c-8114-59f580ad466b" name="Changes" comment="commit for Handling First two checkboxes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selnium/practice/HandlingCheckBoxesTwo.java" afterDir="false" />
+    <list default="true" id="711d900c-8ee0-495c-8114-59f580ad466b" name="Changes" comment="commit to HandlingCheckBoxesTwo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selnium/practice/HandlingSideBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selnium/practice/LoginHRMPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selnium/practice/SelectDeselectCheckboxes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/selnium/practice/LoginHRM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selnium/practice/LoginHRM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selnium/practice/OrangeHRMXpathClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selnium/practice/XpathClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/selnium/practice/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selnium/practice/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/selnium/practice/XpathClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selnium/practice/XpathClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +62,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\PracticeSelenium\src\main\selenium" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.selnium.practice" />
       <recent name="com.qa.programs" />
     </key>
   </component>
@@ -147,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707913250887</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit to HandlingCheckBoxesTwo">
+      <created>1707980387120</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707980387120</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +179,8 @@
     <MESSAGE value="Select Last two checkboxes" />
     <MESSAGE value="Adding close broser method" />
     <MESSAGE value="commit for Handling First two checkboxes" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit for Handling First two checkboxes" />
+    <MESSAGE value="commit to HandlingCheckBoxesTwo" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit to HandlingCheckBoxesTwo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

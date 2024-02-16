@@ -6,8 +6,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class LoginHRM {
-    public static void main(String[] args) throws InterruptedException {
+public class LoginHRM  {
+
+
+    public void login() throws InterruptedException {
+
         TestData ref=new TestData();
 
 
@@ -60,4 +63,10 @@ public class LoginHRM {
 
 
     }
-}
+
+
+
+    public static void main(String[] args) throws InterruptedException {
+        LoginHRM ref1=new LoginHRM();
+        ref1.login();
+    }}
