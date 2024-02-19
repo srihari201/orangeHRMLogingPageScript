@@ -3,6 +3,7 @@ package com.selnium.practice;
 public class XpathClass {
     static String orangeHRM_URL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
     static  String frames_URL="https://demoqa.com/frames";
+    static String innerFrame_URL="https://ui.vision/demo/webtest/frames/";
     static String userNameXPath="//input[@name='username']";
     static String passwordXpath="//input[@name='password']";
 
@@ -18,5 +19,8 @@ public class XpathClass {
 
     static String professionCheckboxXpath="//input[@name='profession'][@type='checkbox']";
     static String automationToolXpath="//input[@name='tool'][@type='checkbox']";
+    static String frame1="//frame[@src='frame_1.html']";
+    static String myTextField="//input[@name='mytext1']";
+
 
 }
