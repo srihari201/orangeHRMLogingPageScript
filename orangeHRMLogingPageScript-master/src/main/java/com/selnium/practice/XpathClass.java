@@ -20,7 +20,12 @@ public class XpathClass {
     static String professionCheckboxXpath="//input[@name='profession'][@type='checkbox']";
     static String automationToolXpath="//input[@name='tool'][@type='checkbox']";
     static String frame1="//frame[@src='frame_1.html']";
-    static String myTextField="//input[@name='mytext1']";
+    static String myTextField1="//input[@name='mytext1']";
 
+    static String frame3="//frame[@src='frame_3.html']";
+    static String myTextField3="//input[@name='mytext3']";
+    static String radioBtnCss=".AB7Lab";
 
+    static String link1Xpath="//a[contains(normalize-space(),'OrangeHRM, Inc')]";
+    static String contactSaleXpath="//div[@class='d-flex web-menu-btn']//li[1]//a[1]";
 }

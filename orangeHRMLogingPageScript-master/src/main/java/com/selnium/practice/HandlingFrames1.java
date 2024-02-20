@@ -15,7 +15,6 @@ public class HandlingFrames1 extends BaseClass{
         //Switch back to page
         driver.switchTo().defaultContent();
 
-
         //Switch to the frame2
         driver.switchTo().frame("frame2");
         String frame2Text= driver.findElement(org.openqa.selenium.By.id("sampleHeading")).getText();
