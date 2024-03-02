@@ -1,6 +1,7 @@
 package com.qa.tableHandlings;
 
 
+import org.openqa.selenium.By;
 
 public class DynamicTableHandling3 {
     static org.openqa.selenium.WebDriver driver;
