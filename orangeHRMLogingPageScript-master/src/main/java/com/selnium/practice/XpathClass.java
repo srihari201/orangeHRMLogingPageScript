@@ -55,7 +55,7 @@ public class XpathClass {
     static String electronicsTopElementXpath="//ul[@class='top-menu']//a[normalize-space()='Electronics']";
     static String cameraPhotoXpath="//ul[@class='top-menu']//a[normalize-space()='Camera, photo']";
 
-
+    static String cameraXpath="//ul[@class='top-menu']//a[normalize-space()='Cell phones']";
 
 
 }
