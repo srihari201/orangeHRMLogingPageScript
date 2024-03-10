@@ -1,7 +1,7 @@
 package com.selnium.practice;
 
 public class XpathClass {
-    static String orangeHRM_URL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+    public static String orangeHRM_URL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
     static  String frames_URL="https://demoqa.com/frames";
     static String innerFrame_URL="https://ui.vision/demo/webtest/frames/";
     static  String blazeDemoURL="https://blazedemo.com/";
@@ -15,12 +15,12 @@ public class XpathClass {
     static String DemoWebShopDesktop="//ul[@class='top-menu']//a[normalize-space()='Desktops']";
 
     static String datePickerURL="https://jqueryui.com/datepicker/";
-    static String userNameXPath="//input[@name='username']";
-    static String passwordXpath="//input[@name='password']";
+    public static String userNameXPath="//input[@name='username']";
+    public   static String passwordXpath="//input[@name='password']";
 
-    static String loginButtonXpath="//button[normalize-space()='Login']";
+    public  static String loginButtonXpath="//button[normalize-space()='Login']";
 
-    static String dashBoardLabelXpath="//h6[normalize-space()='Dashboard']";
+    public  static String dashBoardLabelXpath="//h6[normalize-space()='Dashboard']";
 
     static String sideBarXpath="//ul[@class='oxd-main-menu']/li";
     static String AdminTopBarHeaderBreadcrumbXpath="//div[@class='oxd-topbar-header-title']";

@@ -3,6 +3,7 @@ package com.selnium.practice;
 public class MouseActionsDoubleClick extends BaseClass {
     @Override
     public void enterUrl(String url) {
+
         super.enterUrl(url);
     }
     public void performDoubleClick() throws InterruptedException {
