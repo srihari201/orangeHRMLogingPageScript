@@ -2,11 +2,13 @@ package com.java.oops.methodOverriding;
 
 public class MethodOverriding1 {
     public  void m1(){
+
         System.out.println("method m1");
     }
 }
 class MethodOverriding2 extends  MethodOverriding1{
     public  void m1(){
+
         System.out.println("method m2");
     }
 }

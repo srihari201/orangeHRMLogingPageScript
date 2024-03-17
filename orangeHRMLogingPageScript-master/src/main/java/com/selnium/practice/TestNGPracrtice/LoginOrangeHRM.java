@@ -18,7 +18,7 @@ public class LoginOrangeHRM {
     public void login(){
 
         driver.findElement(org.openqa.selenium.By.xpath(XpathClass.userNameXPath)).sendKeys(TestData.UserName);
-       driver.findElement(org.openqa.selenium.By.xpath(XpathClass.passwordXpath)).sendKeys(TestData.password);
+      driver.findElement(org.openqa.selenium.By.xpath(XpathClass.passwordXpath)).sendKeys(TestData.password);
         driver.findElement(org.openqa.selenium.By.xpath(XpathClass.loginButtonXpath)).click();
 
     }

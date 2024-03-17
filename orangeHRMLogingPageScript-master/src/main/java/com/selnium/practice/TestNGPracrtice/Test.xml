@@ -3,13 +3,9 @@
 <suite name="Sample Execution">
     <test name="orangeHRM">
         <classes>
-            <class name="com.selnium.practice.TestNGPracrtice.LoginOrangeHRM"> </class>
-            <class name="com.selnium.practice.TestNGPracrtice.FirstTCTestNG"> </class>
+            <class name="com.selnium.practice.TestNGPracrtice.OrangeHRMLoginPage"> </class>
+            <class name="com.selnium.practice.TestNGPracrtice.DemoWebShopLoginPage"> </class>
         </classes>
     </test>
-    <listeners>
-        <listener class-name="org.testng.reporters.XMLReporter"/>
-        <listener class-name="org.testng.reporters.EmailableReporter"/>
-    </listeners>
 
 </suite>

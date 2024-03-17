@@ -1,2 +1,4 @@
-package com.practice.com;public class WordOccurance {
+package com.practice.com;
+
+public class WordOccurance {
 }

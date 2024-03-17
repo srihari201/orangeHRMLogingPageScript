@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="sample">
+        <classes>
+
+            <class name="com.selnium.practice.TestNGPracrtice.OrangeHRMLoginPage">
+                <methods>
+                    <include name="testLoginWithValidCredentials"/>
+                    <include name="verificationOfHomePage"/>
+                </methods>
+            </class>
+
+            <class name="com.selnium.practice.TestNGPracrtice.OrangeHRMLoginInvalidCredentials">
+                <methods>
+                    <include name="process" />
+                </methods>
+            </class>
+
+            <class name="com.selnium.practice.TestNGPracrtice.DemoWebShopLoginPage">
+                <methods>
+                    <include name="demoWebShopTestLoginWithValidCredentials" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
