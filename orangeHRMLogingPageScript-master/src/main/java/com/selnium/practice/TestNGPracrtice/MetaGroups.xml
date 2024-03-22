@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Execution">
+
+    <test name="smoke test">
+        <groups>
+            <define name="dailyBuild">
+                <include name="Smoke"/>
+                <include name="Sanity"/>
+            </define >
+            <define name="weeklyBuild">
+                <include name="Smoke"/>
+                <include name="Sanity"/>
+                <include name="Regression"/>
+            </define>
+
+
+            <run>
+                <include name="weeklyBuild"/>
+                <!--<exclude name="Sanity" />-->
+            </run>
+        </groups>
+        <classes>
+            <class name="com.selnium.practice.TestNGPracrtice.OrangeHRMLoginInvalidCredentials" />
+            <class name="com.selnium.practice.TestNGPracrtice.DemoWebShopLoginPage" />
+        </classes>
+    </test>
+
+
+</suite>

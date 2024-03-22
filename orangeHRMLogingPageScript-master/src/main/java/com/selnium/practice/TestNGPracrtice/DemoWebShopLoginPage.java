@@ -10,7 +10,7 @@ import java.time.Duration;
 
 public class DemoWebShopLoginPage {
     WebDriver driver;
-    @BeforeClass
+    @BeforeClass(groups = {"Smoke","Sanity","Regression"})
     public void demoWebShopSetUpLogin(){
         driver=new ChromeDriver();
         driver.get("https://demowebshop.tricentis.com/");
@@ -18,14 +18,22 @@ public class DemoWebShopLoginPage {
         driver.manage().window().maximize();
 
     }
-    @Test
-    public void  demoWebShopTestLoginWithValidCredentials(){
+    @Test(groups = {"Smoke","Sanity"})
+    public void demoWebShop1(){
+        System.out.println("DemoWebShop1");
+    }
+    @Test(groups = {"Smoke","Sanity","functional","Regression"})
+    public void  DemoWebShopTestLoginWithValidCredentials(){
         driver.findElement(By.xpath("//a[contains(normalize-space(),'Log in')]")).click();
         driver.findElement(By.xpath("//input[@name='Email']")).sendKeys("srihari.adada@kanini.com");
         driver.findElement(By.xpath("//input[@id='Password']")).sendKeys("Srihari@demo");
         driver.findElement(By.xpath("//input[@value='Log in']")).click();
     }
-    @AfterClass
+    @Test(groups = {"functional", "Regression"})
+    public void DemoWebShop2(){
+        System.out.println("DemoWebShop2");
+    }
+    @AfterClass(groups = {"Smoke","Sanity","Regression"})
     public void demoWebShopTearDown(){
         driver.quit();
 

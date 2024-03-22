@@ -2,52 +2,64 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-17T16:49:27 IST" name="All Test Suite" finished-at="2024-03-17T16:50:18 IST" duration-ms="51269">
+  <suite started-at="2024-03-17T23:04:29 IST" name="All Test Suite" finished-at="2024-03-17T23:05:34 IST" duration-ms="65186">
     <groups>
     </groups>
-    <test started-at="2024-03-17T16:49:27 IST" name="sample" finished-at="2024-03-17T16:50:18 IST" duration-ms="51269">
+    <test started-at="2024-03-17T23:04:29 IST" name="sample" finished-at="2024-03-17T23:05:34 IST" duration-ms="65186">
       <class name="com.selnium.practice.TestNGPracrtice.OrangeHRMLoginPage">
-        <test-method is-config="true" signature="setUpLoginPage()[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginPage@1df82230]" started-at="2024-03-17T16:49:27 IST" name="setUpLoginPage" finished-at="2024-03-17T16:49:42 IST" duration-ms="15446" status="PASS">
+        <test-method is-config="true" signature="setUpLoginPage(java.lang.String,java.lang.String)[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginPage@290d210d]" started-at="2024-03-17T23:04:29 IST" name="setUpLoginPage" finished-at="2024-03-17T23:04:50 IST" duration-ms="21463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpLoginPage -->
-        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginPage@1df82230]" started-at="2024-03-17T16:49:42 IST" name="testLoginWithValidCredentials" finished-at="2024-03-17T16:49:43 IST" duration-ms="714" status="PASS">
+        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginPage@290d210d]" started-at="2024-03-17T23:04:50 IST" name="testLoginWithValidCredentials" finished-at="2024-03-17T23:04:51 IST" duration-ms="804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidCredentials -->
-        <test-method signature="verificationOfHomePage()[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginPage@1df82230]" started-at="2024-03-17T16:49:43 IST" name="verificationOfHomePage" finished-at="2024-03-17T16:49:45 IST" duration-ms="2161" status="PASS">
+        <test-method signature="verificationOfHomePage()[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginPage@290d210d]" started-at="2024-03-17T23:04:51 IST" name="verificationOfHomePage" finished-at="2024-03-17T23:04:53 IST" duration-ms="1850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificationOfHomePage -->
-        <test-method is-config="true" signature="tearDownLogout()[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginPage@1df82230]" started-at="2024-03-17T16:49:45 IST" name="tearDownLogout" finished-at="2024-03-17T16:49:45 IST" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="tearDownLogout()[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginPage@290d210d]" started-at="2024-03-17T23:04:53 IST" name="tearDownLogout" finished-at="2024-03-17T23:04:53 IST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownLogout -->
       </class> <!-- com.selnium.practice.TestNGPracrtice.OrangeHRMLoginPage -->
       <class name="com.selnium.practice.TestNGPracrtice.OrangeHRMLoginInvalidCredentials">
-        <test-method is-config="true" signature="initializePreconditions()[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginInvalidCredentials@70be0a2b]" started-at="2024-03-17T16:49:45 IST" name="initializePreconditions" finished-at="2024-03-17T16:49:55 IST" duration-ms="10193" status="PASS">
+        <test-method is-config="true" signature="initializePreconditions()[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginInvalidCredentials@402e37bc]" started-at="2024-03-17T23:04:53 IST" name="initializePreconditions" finished-at="2024-03-17T23:05:12 IST" duration-ms="18429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializePreconditions -->
-        <test-method signature="process()[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginInvalidCredentials@70be0a2b]" started-at="2024-03-17T16:49:55 IST" name="process" finished-at="2024-03-17T16:50:06 IST" duration-ms="10360" status="PASS">
+        <test-method signature="process()[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginInvalidCredentials@402e37bc]" started-at="2024-03-17T23:05:12 IST" name="process" finished-at="2024-03-17T23:05:22 IST" duration-ms="10264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- process -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginInvalidCredentials@70be0a2b]" started-at="2024-03-17T16:50:06 IST" name="tearDown" finished-at="2024-03-17T16:50:06 IST" duration-ms="252" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selnium.practice.TestNGPracrtice.OrangeHRMLoginInvalidCredentials@402e37bc]" started-at="2024-03-17T23:05:22 IST" name="tearDown" finished-at="2024-03-17T23:05:22 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.selnium.practice.TestNGPracrtice.OrangeHRMLoginInvalidCredentials -->
       <class name="com.selnium.practice.TestNGPracrtice.DemoWebShopLoginPage">
-        <test-method is-config="true" signature="demoWebShopSetUpLogin()[pri:0, instance:com.selnium.practice.TestNGPracrtice.DemoWebShopLoginPage@2133814f]" started-at="2024-03-17T16:50:06 IST" name="demoWebShopSetUpLogin" finished-at="2024-03-17T16:50:16 IST" duration-ms="9941" status="PASS">
+        <test-method is-config="true" signature="demoWebShopSetUpLogin()[pri:0, instance:com.selnium.practice.TestNGPracrtice.DemoWebShopLoginPage@79ad8b2f]" started-at="2024-03-17T23:05:22 IST" name="demoWebShopSetUpLogin" finished-at="2024-03-17T23:05:32 IST" duration-ms="10072" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demoWebShopSetUpLogin -->
-        <test-method signature="demoWebShopTestLoginWithValidCredentials()[pri:0, instance:com.selnium.practice.TestNGPracrtice.DemoWebShopLoginPage@2133814f]" started-at="2024-03-17T16:50:16 IST" name="demoWebShopTestLoginWithValidCredentials" finished-at="2024-03-17T16:50:18 IST" duration-ms="1800" status="PASS">
+        <test-method signature="demoWebShopTestLoginWithValidCredentials()[pri:0, instance:com.selnium.practice.TestNGPracrtice.DemoWebShopLoginPage@79ad8b2f]" started-at="2024-03-17T23:05:32 IST" name="demoWebShopTestLoginWithValidCredentials" finished-at="2024-03-17T23:05:34 IST" duration-ms="1600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demoWebShopTestLoginWithValidCredentials -->
-        <test-method is-config="true" signature="demoWebShopTearDown()[pri:0, instance:com.selnium.practice.TestNGPracrtice.DemoWebShopLoginPage@2133814f]" started-at="2024-03-17T16:50:18 IST" name="demoWebShopTearDown" finished-at="2024-03-17T16:50:18 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="demoWebShopTearDown()[pri:0, instance:com.selnium.practice.TestNGPracrtice.DemoWebShopLoginPage@79ad8b2f]" started-at="2024-03-17T23:05:34 IST" name="demoWebShopTearDown" finished-at="2024-03-17T23:05:34 IST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demoWebShopTearDown -->

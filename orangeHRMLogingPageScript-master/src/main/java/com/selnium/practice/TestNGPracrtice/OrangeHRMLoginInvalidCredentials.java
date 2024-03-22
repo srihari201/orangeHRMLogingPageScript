@@ -10,22 +10,23 @@ import org.testng.annotations.*;
 import java.time.Duration;
 
 import static org.testng.Assert.*;
+@Test(groups = {"All"})
 
 public class OrangeHRMLoginInvalidCredentials {
     WebDriver driver;
-    @BeforeClass
-    public void initializePreconditions(){
-        driver=new ChromeDriver();
+    WebDriverWait explicitWait;
+    @BeforeClass(groups ={"Smoke","Sanity","Regression"})
+    public void initializePreconditions() {
+        driver = new ChromeDriver();
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
-
     }
-    @Test
+    @Test(groups={"Smoke","Sanity","Functional","Regression"})
     public void process() throws InterruptedException {
         Thread.sleep(10000);
         driver.findElement(By.xpath("//button[contains(normalize-space(),'Login')]")).click();
-        WebDriverWait explicitWait=new WebDriverWait(driver,Duration.ofSeconds(10));
+        explicitWait=new WebDriverWait(driver,Duration.ofSeconds(10));
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='username']")));
 
         //Colour code webElement
@@ -51,7 +52,7 @@ public class OrangeHRMLoginInvalidCredentials {
 
     }
 
-    @AfterClass
+    @AfterClass(groups = {"Smoke","Sanity","Regression"})
     public void tearDown(){
         driver.quit();
 
